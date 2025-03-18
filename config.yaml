@@ -1,0 +1,12 @@
+chat_models_list:
+    - openai
+    - mistralai
+chat_model: openai
+openai_model: gpt-4o-mini
+mistralai_model: mistral-small-latest
+
+# Map-Reduce
+chunk_size: 1000
+chunk_overlap: 0
+token_max: 1000
+recursion_limit: 10
